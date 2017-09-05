@@ -6,7 +6,7 @@
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/auroracointools/insight-api.git",
+  "repository": "git://github.com/guptacoin/insight-api.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -34,9 +34,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/auroracointools/insight-api/issues"
+    "url": "https://github.com/guptacoin/insight-api/issues"
   },
-  "homepage": "https://github.com/auroracointools/insight-api",
+  "homepage": "https://github.com/guptacoin/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -59,7 +59,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore": "git://github.com/auroracointools/bitcore.git",
+    "bitcore": "git://github.com/Guptacoin/bitcore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",

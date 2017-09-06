@@ -44,7 +44,7 @@ exports.index = function(req, res) {
     timestamp = currentTime;
 
     _request('https://www.cryptonator.com/api/ticker/aur-usd', function(err, data) {
-      if (!err) bitstampRate = parseFloat(JSON.parse(data)['ticker']['price']);
+      if (!err && data!=null) bitstampRate = parseFloat(JSON.parse(data)['ticker']['price']);
 
       res.jsonp({
         status: 200,
